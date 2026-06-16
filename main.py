@@ -1,6 +1,5 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QVBoxLayout
-
+from PyQt5.QtWidgets import QApplication, QLabel, QWidget, QVBoxLayout
 class App(QWidget):
     def __init__(self):
         super().__init__()
